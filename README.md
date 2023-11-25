@@ -19,7 +19,7 @@ This project was born as part of my effort to learn how to consume an API. In th
 
 [My Demo](https://food-rapidapi.vercel.app/)
 
-[RAPID API](https://rapidapi.com/edamam/api/edamam-food-and-grocery-database)
+[Food - RAPID API](https://rapidapi.com/edamam/api/edamam-food-and-grocery-database)
 
 [Food and Grocery Database API](https://developer.edamam.com/food-database-api)
 
