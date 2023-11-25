@@ -17,7 +17,7 @@ This project was developed using
 
 This project was born as part of my effort to learn how to consume an API. In this case, how to consume Rapid API's.
 
-[My Demo](https://food-rapid-api.vercel.app/)
+[My Demo](https://food-rapidapi.vercel.app/)
 
 [RAPID API](https://rapidapi.com/edamam/api/edamam-food-and-grocery-database)
 
