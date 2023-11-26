@@ -1,12 +1,12 @@
 # Food - RapidAPI
 
-A programming Memes Images using Rapid API, React, Vite and Tailwind CSS
+Food - RapidAPI is a project that allows you to search for food and recipes using the Edamam Food and Grocery Database API.
 
 <!-- BUILD WITH -->
 
 ### Built With 🔑
 
-This project was developed using
+This project was developed using Rapid API, React, Vite and Tailwind CSS
 
 [![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)](https://www.w3schools.com/whatis/whatis_react.asp)
 [![Tailwind](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)](https://tailwindcss.com/)
