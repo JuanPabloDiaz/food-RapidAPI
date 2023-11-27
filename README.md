@@ -2,6 +2,27 @@
 
 Food - RapidAPI is a project that allows you to search for food and recipes using the Edamam Food and Grocery Database API.
 
+## Consuming An API and Hide Your API Keys SAFELY in React
+
+This is a simple app that consumes an API using React, Vite and
+Tailwind CSS.
+
+The App is secured using a key I created in Rapid API. This API key is saved in a `.env` file and the data is fetched
+from a backend server that I created using Node.js and Express.js.
+
+Since the app is getting the data from a backend server, the app
+is only working in localhost when the backend server is up and
+running. Which means that the app is not working in production yet.
+
+To view the project on localhost, you need to run the backend
+server first. Running the backend server is easy. Just run the
+command `npm run backend` in the terminal. Then, run the command
+`npm run dev` to start the app.
+
+## Food API
+
+The best food API for your app, website or recipe using Edamam Food and Grocery Database.
+
 <!-- BUILD WITH -->
 
 ### Built With 🔑
