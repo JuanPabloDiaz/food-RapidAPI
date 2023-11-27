@@ -51,8 +51,18 @@ function App() {
         <div className="flex flex-col items-center justify-center">
           <div className="text-justify">
             <h1 className="text-center text-4xl md:text-6xl font-bold mb-4">
-              Consuming An API and Hide Your API Keys SAFELY in React
+              Consuming and Securing Your API Keys in React
             </h1>
+            <h1 className="text-center text-xl md:text-2xl  mb-4">
+              Watch:
+              <a
+                className="font-semibold text-gray-400 pl-2 hover:text-sky-600 duration-150"
+                href="https://www.youtube.com/watch?v=FcwfjMebjTU&t=0s"
+              >
+                Hide Your API Keys SAFELY in React
+              </a>{" "}
+            </h1>
+            <h2></h2>
             <p className="text-xl md:text-2xl py-2">
               This is a simple app that consumes an API using React, Vite and
               Tailwind CSS. The App is secured using a key I created in Rapid
@@ -79,7 +89,7 @@ function App() {
               <p>
                 <a
                   href="https://github.com/JuanPabloDiaz/food-RapidAPI"
-                  className="text-xl md:text-2xl p-2 underline underline-offset-4 text-sky-600"
+                  className="text-xl md:text-2xl p-2 underline underline-offset-4 text-sky-600 hover:text-sky-800 duration-150"
                 >
                   Github Repo
                 </a>
@@ -87,7 +97,7 @@ function App() {
               <p className="flex flex-col">
                 <a
                   href="https://docs.jpdiaz.dev/posts/consume-rapid-api/"
-                  className="text-xl md:text-2xl p-2 underline underline-offset-4 text-sky-600"
+                  className="text-xl md:text-2xl p-2 underline underline-offset-4 text-sky-600 hover:text-sky-800 duration-150"
                 >
                   Docs.Jpdiaz.dev
                 </a>
