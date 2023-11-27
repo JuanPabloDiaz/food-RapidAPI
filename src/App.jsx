@@ -48,18 +48,18 @@ function App() {
   return (
     <>
       <Layout>
-        <div className="flex flex-col items-center justify-center  pb-2">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+        <div className="flex flex-col items-center justify-center">
+          <div className="text-justify">
+            <h1 className="text-center text-4xl md:text-6xl font-bold mb-4">
               Consuming An API and Hide Your API Keys SAFELY in React
             </h1>
-            <p className="text-xl md:text-2xl p-2">
+            <p className="text-xl md:text-2xl py-2">
               This is a simple app that consumes an API using React, Vite and
               Tailwind CSS. The App is secured using a key I created in Rapid
               API. This API key is saved in a .env file and the data is fetched
               from a backend server that I created using Node.js and Express.js.
             </p>
-            <p className="text-xl md:text-2xl p-2">
+            <p className="text-xl md:text-2xl py-2">
               Since the app is getting the data from a backend server, the app
               is only working in localhost when the backend server is up and
               running. Which means that the app is not working in production.
@@ -71,7 +71,33 @@ function App() {
               <span className="font-semibold px-2 ">npm run dev</span> to start
               the app.
             </p>
-            <h2 className="text-2xl md:text-4xl font-semibold mt-14 text-left underline underline-offset-4 text-gray-500">
+            <p className="text-xl md:text-2xl py-4">
+              Check the code in my Github and the documentation in my website to
+              learn more about this project.
+            </p>
+            <div className="flex justify-around">
+              <p>
+                <a
+                  href="https://github.com/JuanPabloDiaz/food-RapidAPI"
+                  className="text-xl md:text-2xl p-2 underline underline-offset-4 text-sky-600"
+                >
+                  Github Repo
+                </a>
+              </p>
+              <p className="flex flex-col">
+                <a
+                  href="https://docs.jpdiaz.dev/posts/consume-rapid-api/"
+                  className="text-xl md:text-2xl p-2 underline underline-offset-4 text-sky-600"
+                >
+                  Docs.Jpdiaz.dev
+                </a>
+                <span className="text-xs text-center text-gray-500">
+                  {" "}
+                  Step 5: API Keys SAFELY
+                </span>
+              </p>
+            </div>
+            <h2 className="text-left text-2xl md:text-4xl font-semibold mt-14 underline underline-offset-4 text-gray-500">
               Food API
             </h2>
             <p className="text-xl md:text-2xl p-2">
