@@ -22,6 +22,9 @@ app.get("/", (req, res) => {
 });
 
 app.get("/backend", (req, res) => {
+  // console.log("req: ", req); // <-- request:  IncomingMessage { ... }
+  // console.log("req.query: ", req.query); // <-- query:  [Object: null prototype] {}
+
   // options is required ~ Rapid API
   const options = {
     method: "GET",
