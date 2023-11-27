@@ -53,6 +53,9 @@ function App() {
             <h1 className="text-center text-4xl md:text-6xl font-bold mb-4">
               Consuming and Securing Your API Keys in React
             </h1>
+            <p className="absolute text-xs md:text-md right-20 py-5 text-gray-400 w-80 md:w-fit">
+              Developed by Juan Diaz
+            </p>
             <h1 className="text-center text-xl md:text-2xl  mb-4">
               Watch:
               <a
@@ -60,7 +63,7 @@ function App() {
                 href="https://www.youtube.com/watch?v=FcwfjMebjTU&t=0s"
               >
                 Hide Your API Keys SAFELY in React
-              </a>{" "}
+              </a>
             </h1>
             <h2></h2>
             <p className="text-xl md:text-2xl py-2">
@@ -102,7 +105,6 @@ function App() {
                   Docs.Jpdiaz.dev
                 </a>
                 <span className="text-xs text-center text-gray-500">
-                  {" "}
                   Step 5: API Keys SAFELY
                 </span>
               </p>
@@ -118,8 +120,13 @@ function App() {
               Food and Grocery Database API: using Rapid API, React, Vite and
               Tailwind CSS
             </p>
+
             <p className="text-xs md:text-md py-5 text-gray-400 w-80 md:w-fit">
-              Developed by Juan Diaz
+              You should see the data below this text. If you don't see it, it
+              means that the backend server is not running. Please, run the
+              command{" "}
+              <span className="font-semibold px-2 ">npm run backend</span> in
+              the terminal to start the backend server.
             </p>
           </div>
           <div className="grid gap-4 grid-row justify-center sm:grid-cols-2 md:grid-cols-3 w-full max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
