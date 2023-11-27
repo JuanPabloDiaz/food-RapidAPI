@@ -4,14 +4,7 @@ import Layout from "./Components/Layout";
 import Card from "./Components/Card";
 
 function App() {
-  // options is required ~ Rapid API
-  const options = {
-    method: "GET",
-    headers: {
-      "X-RapidAPI-Key": import.meta.env.VITE_RAPID_API_KEY, // -->> This is the Default API key
-      "X-RapidAPI-Host": "edamam-food-and-grocery-database.p.rapidapi.com",
-    },
-  };
+  // API options was here. I moved it to the backend.js file
 
   // First element from useState is the state itself (""). The initial value, in this case an empty string
   // Second is the function that will update the state (setEndPoint). The "Changer" function
@@ -31,26 +24,26 @@ function App() {
   const [container, setContainer] = useState([]);
 
   useEffect(() => {
-    // const url = `https://imdb8.p.rapidapi.com/auto-complete?q=+${endPoint}`;  // IMDb API
+    // API's URL was here. I moved it to the backend.js file
 
-    const url =
-      "https://edamam-food-and-grocery-database.p.rapidapi.com/api/food-database/v2/parser?nutrition-type=cooking&category%5B0%5D=generic-foods&health%5B0%5D=alcohol-free";
+    // fetchData  function was here. I moved it to the backend.js file
+
+    const url = "http://localhost:8000/backend";
 
     // async function:
     const fetchData = async () => {
       try {
-        const response = await fetch(url, options);
+        const response = await fetch(url);
         const result = await response.json();
-        // console.log(result.hints);
-        console.log(result.hints.food);
-        setContainer(result.hints); // setContainer is now an array of objects that contains the data from the API
+        console.log(result);
+        setContainer(result); // setContainer is now an array of objects that contains the data from the API
       } catch (error) {
         console.error(error);
       }
     };
 
     fetchData();
-  }, [endPoint, options]);
+  }, [endPoint]);
 
   return (
     <>
@@ -78,9 +71,8 @@ function App() {
             {/* })} */}
             {/* Card */}
 
-            {container.map((item) => (
-              <Card key={item.id} data={item} />
-            ))}
+            {container &&
+              container.map((item) => <Card key={item.id} data={item} />)}
           </div>
         </div>
       </Layout>
