@@ -1,5 +1,7 @@
 # Food - RapidAPI
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/?autostart=true#https://github.com/JuanPabloDiaz/food-RapidAPI)
+
 Food - RapidAPI is a project that allows you to search for food and recipes using the Edamam Food and Grocery Database API.
 
 ## Consuming An API and Hide Your API Keys SAFELY in React
@@ -22,6 +24,12 @@ command `npm run backend` in the terminal. Then, run the command
 ## Food API
 
 The best food API for your app, website or recipe using Edamam Food and Grocery Database.
+
+## Environment Variables :rocket: Pre-Configured in Gitpod
+
+This project's environment variables are already configured within the Gitpod workspace. You can start developing immediately.
+
+**Note:** You do not need to manually set these variables when using Gitpod. They are automatically loaded when the workspace starts.
 
 <!-- BUILD WITH -->
 
