@@ -4,6 +4,8 @@
 
 Food - RapidAPI is a project that allows you to search for food and recipes using the Edamam Food and Grocery Database API.
 
+This project is for learning purposes
+
 ## Consuming An API and Hide Your API Keys SAFELY in React
 
 This is a simple app that consumes an API using React, Vite and
